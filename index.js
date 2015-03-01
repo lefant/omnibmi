@@ -26174,9 +26174,9 @@ var Slider = component('Slider', function(cursor, conf) {
 var TextSlider = component('TextSlider', function(cursor, conf) {
   return d.div(
     {},
-    d.text({}, conf.name),
-    TextInput(cursor),
-    Slider(cursor, conf)
+    d.p({}, d.text({}, conf.name)),
+    d.p({}, TextInput(cursor)),
+    d.p({}, Slider(cursor, conf))
   )
 });
 
