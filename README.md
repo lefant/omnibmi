@@ -6,5 +6,6 @@ lightweight wrapper around react and immutablejs.
 
 
 to assemble the code:
+
     npm install
     browserify src/omnibmi.js -o index.js
