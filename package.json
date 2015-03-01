@@ -1,0 +1,13 @@
+{
+  "name": "omnibmi",
+  "version": "0.0.1",
+  "main": "src/omnibmi.js",
+  "author": "@lefant",
+  "license": "mit",
+  "dependencies": {
+    "immstruct": "^1.4.0",
+    "immutable": "^3.6.2",
+    "omniscient": "^3.0.1",
+    "react": "^0.12.2"
+  }
+}
